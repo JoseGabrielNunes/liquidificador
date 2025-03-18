@@ -1,0 +1,17 @@
+  int pinoLed = 12;
+
+void setup() {
+  pinMode(pinoLed,OUTPUT);
+}
+
+void loop() {
+  digitalWrite(pinoLed,HIGH);
+
+    delay(40000); // Tempo de espera
+
+    digitalWrite(pinoLed, LOW);
+
+    delay(4000); // Tempo de ativo
+
+  
+}
